@@ -329,6 +329,8 @@ section {
 .project-image img {
     width: 100%;
     height: auto;
+     object-fit: cover;   /* Keeps card uniform */
+    object-position: center; /* Adjust crop focus */
     display: block;
 }
 
